@@ -2,6 +2,7 @@
   <div class="burgerContainer">
     <div class="row">
       <div class="col-sm-4" >
+        <h3 class="toDevour"> Devour It ! </h3>
         {{#each burgers}}
           {{#unless devoured}}
           <form action="/burgers/devour/{{id}}" method="POST">
@@ -26,6 +27,7 @@
       </div>
 
       <div class="col-sm-4" id="devouredContainer">
+           <h3 class="devoured"> Devoured </h3>
             {{#each burgers}}
                 {{#if this.devoured}}
                 <li class='devouredLi'>

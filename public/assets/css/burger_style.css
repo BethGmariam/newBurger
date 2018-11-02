@@ -18,6 +18,16 @@ h1{
     color:green;
 }
 
+h3.toDevour{
+    text-align:center;
+    color:wheat;
+    width:95%;
+}
+h3.devoured{
+    text-align:center;
+    color:red;
+}
+
 #burgerName{
     font-style:italic;
     background-color:whitesmoke;
